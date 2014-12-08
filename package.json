@@ -1,0 +1,22 @@
+{
+  "name": "cozy-light-simple-dashboard",
+  "type": "plugin",
+  "version": "0.1.0",
+  "displayName": "Simple Dashboard",
+  "description": "Minimalist dashboard for Cozy Light.",
+  "author": "Cozy Cloud <contact@cozycloud.cc> (http://cozycloud.cc)",
+  "licenses": [
+    {
+      "type": "AGPL v3",
+      "url": "http://www.gnu.org/licenses/agpl-3.0.html"
+    }
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cozy-labs/cozy-light-simple-dashboard.git"
+  },
+  "dependencies": {
+    "serve-static": "^1.7.0"
+  }
+}
