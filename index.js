@@ -28,7 +28,7 @@ var controllers = {
           var pluginPath = module.cozyLight.configHelpers.modulePath(plugin.name);
           var pluginModule = require(pluginPath);
           if (pluginModule.getTemplate !== undefined) {
-            var template = plugin.getTemplate(config);
+            var template = pluginModule.getTemplate(config);
             plugins.push(template);
           }
       }
