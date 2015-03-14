@@ -14,7 +14,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicodel/cozy-light-simple-dashboard.git"
+    "url": "https://github.com/nicodel/cozy-light-less-simple-dashboard.git"
   },
   "dependencies": {
     "serve-static": "^1.7.0"
