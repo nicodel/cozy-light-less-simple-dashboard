@@ -48,7 +48,7 @@ var controllers = {
 
 var plugin = {
   configureAppServer: function(app, config, routes, callback) {
-    var appPath = module.cozyLight.configHelpers.modulePath('cozy-light-simple-dashboard');
+    var appPath = module.cozyLight.configHelpers.modulePath('cozy-light-less-simple-dashboard');
     var appPath = path.join(appPath, 'assets');
     app.use("/", serveStatic(appPath));
     app.all('/home', controllers.index);

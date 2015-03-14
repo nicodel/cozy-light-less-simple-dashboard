@@ -1,9 +1,9 @@
 {
-  "name": "cozy-light-simple-dashboard",
+  "name": "cozy-light-less-simple-dashboard",
   "type": "plugin",
   "version": "0.1.0",
-  "displayName": "Simple Dashboard",
-  "description": "Minimalist dashboard for Cozy Light.",
+  "displayName": "Less Simple Dashboard",
+  "description": "Not so Minimalist dashboard for Cozy Light.",
   "author": "Cozy Cloud <contact@cozycloud.cc> (http://cozycloud.cc)",
   "licenses": [
     {
@@ -14,7 +14,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cozy-labs/cozy-light-simple-dashboard.git"
+    "url": "https://github.com/nicodel/cozy-light-simple-dashboard.git"
   },
   "dependencies": {
     "serve-static": "^1.7.0"
